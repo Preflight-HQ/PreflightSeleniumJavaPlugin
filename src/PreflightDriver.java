@@ -1,0 +1,168 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+import java.util.List;
+import java.util.Set;
+import java.util.regex.Pattern;
+
+public class PreflightDriver implements WebDriver {
+	public static String PreflightApiKey = null;
+	private final PreflightPluginService _pfPluginService;
+	private WebDriver _driver;
+	private String _currentTestId = null;
+
+	public PreflightDriver(WebDriver driver) throws PreflightApiKeyMissingException {
+		this(driver, PreflightDriver.PreflightApiKey);
+	}
+
+	public PreflightDriver(WebDriver driver, String preflightApiKey) throws PreflightApiKeyMissingException {
+		if(preflightApiKey == null) {
+			throw new PreflightApiKeyMissingException("PreflightApiKey not set. Please set it in constructor parameter or as static property like 'PreflightDriver.PreflightApiKey = YOUR_API_KEY'");
+		}
+		_driver = driver;
+		_pfPluginService = new PreflightPluginService(driver, preflightApiKey);
+	}
+
+	public void openEmail(String subject) throws PreflightException {
+		_pfPluginService.openEmail(subject);
+	}
+
+	public void closeEmail() throws Exception {
+		_pfPluginService.closeEmail();
+	}
+
+	public String replaceVariables(String input) {
+		try {
+			return _pfPluginService.replaceVariables(input);
+		} catch (Exception e) {
+			System.out.println("Unable to replace variable in string " + input + " =>  " + e.getMessage());
+		}
+		return input;
+	}
+	
+	public void initializeAutohealTest(String testId) {
+		_currentTestId = testId;
+	}
+
+	public PreflightWebElement findElement(By by, String elementId) throws Exception {
+		return findElement(by, elementId, null);
+	}
+
+	public PreflightWebElement findElement(By by, String elementId, By byIframeSelector) throws Exception {
+		if(byIframeSelector != null) {
+			var iFrameWebElement = seleniumFindElement(byIframeSelector);
+			if(iFrameWebElement == null) {
+				throw new PreflightTestFailException("iFrame not found with selector " + byIframeSelector.toString());
+			}
+			_driver.switchTo().frame(iFrameWebElement);
+		}
+		var webElement = seleniumFindElement(by);
+		if(webElement != null) {
+			return new PreflightWebElement(this, webElement);
+		}
+
+		System.out.println("Element not found by " + by);
+		System.out.println("Applying autoheal.");
+		var selector = getSelectorFromBy(by);
+		WebElement result = _pfPluginService.findElement(selector, elementId, _currentTestId);
+		if(result == null) {
+			throw new PreflightTestFailException("Element not found with autoheal data.");
+		}
+		return new PreflightWebElement(this, result);
+	}
+
+	@Override
+	public void close() {
+		_driver.close();
+	}
+	
+	@Override
+	public WebElement findElement(By by) {
+		return _driver.findElement(by);
+	}
+
+	@Override
+	public List<WebElement> findElements(By by) {
+		return _driver.findElements(by);
+	}
+
+	@Override
+	public void get(String url) {
+		_driver.get(url);
+		new WebDriverWait(_driver, Duration.ofSeconds(10)).until(
+				webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+
+		}
+	}
+
+	@Override
+	public String getCurrentUrl() {
+		return _driver.getCurrentUrl();
+	}
+
+	@Override
+	public String getPageSource() {
+		return _driver.getPageSource();
+	}
+
+	@Override
+	public String getTitle() {
+		return _driver.getTitle();
+	}
+
+	@Override
+	public String getWindowHandle() {
+		return _driver.getWindowHandle();
+	}
+
+	@Override
+	public Set<String> getWindowHandles() {
+		return _driver.getWindowHandles();
+	}
+
+	@Override
+	public Options manage() {
+		return _driver.manage();
+	}
+
+	@Override
+	public Navigation navigate() {
+		return _driver.navigate();
+	}
+
+	@Override
+	public void quit() {
+		_driver.quit();		
+	}
+
+	@Override
+	public TargetLocator switchTo() {
+		return _driver.switchTo();
+	}
+
+	private String getSelectorFromBy(By by) throws PreflightException {
+		Pattern r = Pattern.compile(": ([^\\s]+)");
+		var m = r.matcher(by.toString());
+		if(m.find()) {
+			return m.group(1);
+		}
+		throw new PreflightException("Unable to parse selector");
+	}
+	private WebElement seleniumFindElement(By by) {
+		try {
+			return this.findElement(by);
+		}
+		catch(Exception ex) {
+			System.out.println("Element not found. " + ex.getMessage());
+		}
+		return null;
+	}
+
+}
