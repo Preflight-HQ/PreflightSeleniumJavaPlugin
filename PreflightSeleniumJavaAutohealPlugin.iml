@@ -10,24 +10,24 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../_sandbox/selenium-java-4.1.4" />
+          <root url="file://$MODULE_DIR$/../_sandbox/selenium-java-4.1.4" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/../../_sandbox/selenium-java-4.1.4" />
+          <root url="file://$MODULE_DIR$/../_sandbox/selenium-java-4.1.4" />
         </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/../../_sandbox/selenium-java-4.1.4" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/../../_sandbox/selenium-java-4.1.4" recursive="false" type="SOURCES" />
+        <jarDirectory url="file://$MODULE_DIR$/../_sandbox/selenium-java-4.1.4" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../_sandbox/selenium-java-4.1.4" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../_sandbox/selenium-java-4.1.4/lib" />
+          <root url="file://$MODULE_DIR$/../_sandbox/selenium-java-4.1.4/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/../../_sandbox/selenium-java-4.1.4/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../_sandbox/selenium-java-4.1.4/lib" recursive="false" />
       </library>
     </orderEntry>
   </component>
