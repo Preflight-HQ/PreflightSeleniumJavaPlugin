@@ -49,7 +49,7 @@ public class PreflightDriver implements WebDriver {
 		try {
 			return _pfPluginService.replaceVariables(input);
 		} catch (Exception e) {
-			_logger.error("Unable to replace variable in string " + input + " =>  ", e);
+			_logger.error("Unable to replace variable in string " + input, e);
 		}
 		return input;
 	}
@@ -82,6 +82,7 @@ public class PreflightDriver implements WebDriver {
 		if(result == null) {
 			throw new PreflightTestFailException("Element not found with autoheal data.");
 		}
+		_logger.log("Autoheal successful, element found.");
 		return new PreflightWebElement(this, result, _logger);
 	}
 
@@ -170,7 +171,7 @@ public class PreflightDriver implements WebDriver {
 			return this.findElement(by);
 		}
 		catch(Exception ex) {
-			_logger.warning("Element not found by selenium. " + ex.getMessage());
+			_logger.warning("Element not found by selenium. " + ex.toString());
 		}
 		return null;
 	}

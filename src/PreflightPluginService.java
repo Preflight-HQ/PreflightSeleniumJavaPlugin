@@ -2,6 +2,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
@@ -25,13 +27,15 @@ public class PreflightPluginService {
                 applyStore();
             } catch(Exception e) {
                 _logger.debug("Injecting script to the page");
-                Path filePath = Path.of("src\\AutohealScript.js");
-                String script = Files.readString(filePath);
+                ClassLoader classloader = Thread.currentThread().getContextClassLoader();
+                InputStream is = classloader.getResourceAsStream("AutohealScript.js");
+                String script = new String(is.readAllBytes(), StandardCharsets.UTF_8);
                 js.executeScript(script);
                 js.executeScript("return preflightAutoheal.initialize(arguments[0])", _preflightApiKey);
                 saveStore();
             }
         } catch (Exception e) {
+            _logger.error("Unable to initialize script on page", e);
             throw new PreflightException("Unable to initialize script on page");
         }
     }
