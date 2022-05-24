@@ -6,6 +6,7 @@ import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Map;
 
 public class PreflightPluginService {
     private final PreflightLogger _logger;
@@ -40,10 +41,15 @@ public class PreflightPluginService {
         }
     }
 
-    public WebElement findElement(String selector, String elementId, String testId) throws PreflightException {
+    public SearchElementResult findElement(String selector, String elementId, String testId) throws PreflightException {
         initializeScript();
-        WebElement we = (WebElement) executeAsyncScript("return preflightAutoheal.findElement(arguments[4], arguments[0], arguments[1], arguments[2], arguments[3])", selector, elementId, "NonameTest", testId);
-        return we;
+        var resultObject = executeAsyncScript("return preflightAutoheal.findElement(arguments[4], arguments[0], arguments[1], arguments[2], arguments[3])", selector, elementId, "NonameTest", testId);
+        if(resultObject == null){
+            return null;
+        }
+        var resultMap = (Map<String, Object>)resultObject;
+        var result = new SearchElementResult(resultMap);
+        return result;
     }
 
     public String replaceVariables(String input) throws PreflightException {

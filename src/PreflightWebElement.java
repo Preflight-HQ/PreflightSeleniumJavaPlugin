@@ -1,4 +1,5 @@
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.Select;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -57,6 +58,7 @@ public class PreflightWebElement implements WebElement {
 			_logger.error("Checkpoint value not match element value", ex);
 			throw ex;
 		}
+		_logger.log("Element value check passed.");
 	}
 
 	@Override
@@ -150,5 +152,9 @@ public class PreflightWebElement implements WebElement {
 
 	public void attachFile(String filePath) {
 		webElement.sendKeys(filePath);
+	}
+
+	public void selectByVisibleText(String optionText) {
+		new Select(webElement).selectByVisibleText(optionText);
 	}
 }

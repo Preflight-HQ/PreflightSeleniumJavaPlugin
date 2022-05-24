@@ -13,7 +13,7 @@ public class PreflightDriver implements WebDriver {
 	public static String PreflightApiKey = null;
 	private final PreflightPluginService _pfPluginService;
 	private final PreflightLogger _logger;
-	private WebDriver _driver;
+	public WebDriver _driver;
 	private String _currentTestId = null;
 
 	public PreflightDriver(WebDriver driver) throws PreflightApiKeyMissingException {
@@ -63,6 +63,12 @@ public class PreflightDriver implements WebDriver {
 	}
 
 	public PreflightWebElement findElement(By by, String elementId, By byIframeSelector) throws Exception {
+		try {
+			Thread.sleep(200);
+		} catch (InterruptedException e) {
+
+		}
+
 		if(byIframeSelector != null) {
 			var iFrameWebElement = seleniumFindElement(byIframeSelector);
 			if(iFrameWebElement == null) {
@@ -78,12 +84,17 @@ public class PreflightDriver implements WebDriver {
 		_logger.log("Element not found by " + by);
 		_logger.log("Applying autoheal.");
 		var selector = getSelectorFromBy(by);
-		WebElement result = _pfPluginService.findElement(selector, elementId, _currentTestId);
+		var result = _pfPluginService.findElement(selector, elementId, _currentTestId);
 		if(result == null) {
 			throw new PreflightTestFailException("Element not found with autoheal data.");
 		}
-		_logger.log("Autoheal successful, element found.");
-		return new PreflightWebElement(this, result, _logger);
+		if(result.isFoundByAutoheal) {
+			_logger.log("Autoheal successful. Found element: " + result.elementSimplePath);
+			_logger.log("Please update selector from '" + selector + "' to '" + result.selector + "'");
+		} else {
+			_logger.log("Element fond without autoheal data. Please check if element was on page when you searched it.");
+		}
+		return new PreflightWebElement(this, result.webElement, _logger);
 	}
 
 	@Override

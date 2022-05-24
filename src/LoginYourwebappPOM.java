@@ -17,7 +17,7 @@ public class LoginYourwebappPOM {
      href: ? | tag: a | purpose: navigation | class: font-medium
      */
     public PreflightWebElement clickSignup() throws Exception {
-        var el = driver.findElement(By.cssSelector(".max-w>a"), "pom76iioovBDJz4");
+        var el = driver.findElement(By.cssSelector(".max-w>a"), "pomSyWtmry7wDVS");
         el.click();
         return el;
     }
@@ -27,7 +27,7 @@ public class LoginYourwebappPOM {
      purpose: email | id: pf-lesson-login-0 | inputType: email | tag: input | class: shadow-sm, appearance-none, block, w-full, border, rounded-md
      */
     public PreflightWebElement typeEmailAddress(String emailAddress) throws Exception {
-        var el = driver.findElement(By.cssSelector("[type=\"email\"]"), "pommVl5VeA1b1uH");
+        var el = driver.findElement(By.cssSelector("[type=\"email\"]"), "pomUQONgy6XLud1");
         el.clear();
         el.sendKeys(emailAddress);
         return el;
@@ -38,7 +38,7 @@ public class LoginYourwebappPOM {
      purpose: password | id: pf-lesson-login-1 | inputType: password | tag: input | class: shadow-sm, appearance-none, block, w-full, border, rounded-md
      */
     public PreflightWebElement typePassword(String password) throws Exception {
-        var el = driver.findElement(By.cssSelector("[type=\"password\"]"), "pomH7hexArUNhEA");
+        var el = driver.findElement(By.cssSelector("[type=\"password\"]"), "pomlKyXLRt1hbZq");
         el.clear();
         el.sendKeys(password);
         return el;
@@ -49,7 +49,7 @@ public class LoginYourwebappPOM {
      id: remember_me | tag: input | class: rounded
      */
     public PreflightWebElement clickCheckboxOption() throws Exception {
-        var el = driver.findElement(By.cssSelector(".rounded"), "pomwM1qHVS7wGGN");
+        var el = driver.findElement(By.cssSelector(".rounded"), "pommhpe4ifbPlGg");
         el.click();
         return el;
     }
@@ -59,7 +59,7 @@ public class LoginYourwebappPOM {
      href: ? | tag: a | purpose: navigation | class: font-medium
      */
     public PreflightWebElement clickForgotYourPassword() throws Exception {
-        var el = driver.findElement(By.xpath("//*[contains(text(),\"Forgot your password?\")]"), "pomNbJJ6XJteO3e");
+        var el = driver.findElement(By.xpath("//*[contains(text(),\"Forgot your password?\")]"), "pomWgGItl41HMXE");
         el.click();
         return el;
     }
@@ -69,13 +69,13 @@ public class LoginYourwebappPOM {
      purpose: submit | id: pf-lesson-login-2 | tag: button | class: text-white, flex, justify-center, border, border-transparent, rounded-md, shadow-sm, text-sm, font-medium
      */
     public PreflightWebElement clickSignIn() throws Exception {
-        var el = driver.findElement(By.cssSelector(".text-white"), "pomhbcLG8yiDny9");
+        var el = driver.findElement(By.cssSelector(".text-white"), "pom1xxZri2qpiDP");
         el.click();
         return el;
     }
 
     public PreflightWebElement getLoginErrorMessage() throws Exception {
-        return driver.findElement(By.cssSelector("form>.text-sm"), "pomvhyA9wAmUoDp");
+        return driver.findElement(By.cssSelector("form>.text-sm"), "pom5TDwLvW3zC51");
     }
 
 }
