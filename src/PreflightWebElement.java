@@ -5,16 +5,34 @@ import java.util.List;
 
 public class PreflightWebElement implements WebElement {
 
+	private final PreflightLogger _logger;
 	private PreflightDriver _pfDriver = null;
 	public WebElement webElement = null;
 
-	public PreflightWebElement(PreflightDriver pfDriver, WebElement element) {
+	public PreflightWebElement(PreflightDriver pfDriver, WebElement element, PreflightLogger logger) {
 		_pfDriver = pfDriver;
+		_logger = logger;
 		webElement = element;
 	}
 
 	public <X> X getScreenshotAs(OutputType<X> target) throws WebDriverException {
 		return webElement.getScreenshotAs(target);
+	}
+
+	public String getValue() {
+		var innerText = webElement.getAttribute("innerText");
+		if(innerText != null) {
+			return innerText;
+		}
+
+		if(webElement.getTagName().equals("input") || webElement.getTagName().equals("textarea")){
+			var value = webElement.getAttribute("value");
+			if(value != null) {
+				return value;
+			}
+		}
+
+		return null;
 	}
 
 	public void checkValue(String expectedValue) throws PreflightException {
@@ -23,26 +41,21 @@ public class PreflightWebElement implements WebElement {
 		}
 		expectedValue = _pfDriver.replaceVariables(expectedValue).toLowerCase();
 		var possibleValues = new ArrayList<String>();
-		var innerText = webElement.getAttribute("innerText");
-		if(innerText != null) {
-			innerText = innerText.toLowerCase();
-			possibleValues.add(innerText);
-			for (String s: innerText.split("\n")){
+		var value = getValue();
+		if(value != null) {
+			value = value.toLowerCase();
+			possibleValues.add(value);
+			for (String s: value.split("\n")){
 				if(s != null && !s.isEmpty()){
 					possibleValues.add(s.toLowerCase());
 				}
 			}
 		}
 
-		if(webElement.getTagName().equals("input") || webElement.getTagName().equals("textarea")){
-			var value = webElement.getAttribute("value");
-			if(value != null) {
-				possibleValues.add(value.toLowerCase());
-			}
-		}
-
 		if(!possibleValues.contains(expectedValue)){
-			throw new PreflightTestFailException("Checkpoint value not match element value");
+			var ex = new PreflightTestFailException("Checkpoint value not match element value");
+			_logger.error("Checkpoint value not match element value", ex);
+			throw ex;
 		}
 	}
 

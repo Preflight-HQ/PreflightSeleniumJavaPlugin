@@ -6,13 +6,15 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 public class PreflightPluginService {
+    private final PreflightLogger _logger;
     private WebDriver _driver;
     private String _preflightApiKey;
     private String _currentStore;
 
-    public PreflightPluginService(WebDriver driver, String preflightApiKey) {
+    public PreflightPluginService(WebDriver driver, String preflightApiKey, PreflightLogger logger) {
         _driver = driver;
         _preflightApiKey = preflightApiKey;
+        _logger = logger;
     }
 
     private void initializeScript() throws PreflightException {
@@ -22,6 +24,7 @@ public class PreflightPluginService {
                 js.executeScript("return pfAutohealInitialized");
                 applyStore();
             } catch(Exception e) {
+                _logger.debug("Injecting script to the page");
                 Path filePath = Path.of("src\\AutohealScript.js");
                 String script = Files.readString(filePath);
                 js.executeScript(script);

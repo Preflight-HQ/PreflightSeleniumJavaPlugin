@@ -12,19 +12,29 @@ import java.util.regex.Pattern;
 public class PreflightDriver implements WebDriver {
 	public static String PreflightApiKey = null;
 	private final PreflightPluginService _pfPluginService;
+	private final PreflightLogger _logger;
 	private WebDriver _driver;
 	private String _currentTestId = null;
 
 	public PreflightDriver(WebDriver driver) throws PreflightApiKeyMissingException {
-		this(driver, PreflightDriver.PreflightApiKey);
+		this(driver, PreflightDriver.PreflightApiKey, new PreflightLogger());
 	}
 
 	public PreflightDriver(WebDriver driver, String preflightApiKey) throws PreflightApiKeyMissingException {
+		this(driver, preflightApiKey, new PreflightLogger());
+	}
+
+	public PreflightDriver(WebDriver driver, PreflightLogger logger) throws PreflightApiKeyMissingException {
+		this(driver, PreflightDriver.PreflightApiKey, logger);
+	}
+
+	public PreflightDriver(WebDriver driver, String preflightApiKey, PreflightLogger logger) throws PreflightApiKeyMissingException {
 		if(preflightApiKey == null) {
 			throw new PreflightApiKeyMissingException("PreflightApiKey not set. Please set it in constructor parameter or as static property like 'PreflightDriver.PreflightApiKey = YOUR_API_KEY'");
 		}
 		_driver = driver;
-		_pfPluginService = new PreflightPluginService(driver, preflightApiKey);
+		_logger = logger;
+		_pfPluginService = new PreflightPluginService(driver, preflightApiKey, _logger);
 	}
 
 	public void openEmail(String subject) throws PreflightException {
@@ -39,7 +49,7 @@ public class PreflightDriver implements WebDriver {
 		try {
 			return _pfPluginService.replaceVariables(input);
 		} catch (Exception e) {
-			System.out.println("Unable to replace variable in string " + input + " =>  " + e.getMessage());
+			_logger.error("Unable to replace variable in string " + input + " =>  ", e);
 		}
 		return input;
 	}
@@ -62,17 +72,17 @@ public class PreflightDriver implements WebDriver {
 		}
 		var webElement = seleniumFindElement(by);
 		if(webElement != null) {
-			return new PreflightWebElement(this, webElement);
+			return new PreflightWebElement(this, webElement, _logger);
 		}
 
-		System.out.println("Element not found by " + by);
-		System.out.println("Applying autoheal.");
+		_logger.log("Element not found by " + by);
+		_logger.log("Applying autoheal.");
 		var selector = getSelectorFromBy(by);
 		WebElement result = _pfPluginService.findElement(selector, elementId, _currentTestId);
 		if(result == null) {
 			throw new PreflightTestFailException("Element not found with autoheal data.");
 		}
-		return new PreflightWebElement(this, result);
+		return new PreflightWebElement(this, result, _logger);
 	}
 
 	@Override
@@ -160,7 +170,7 @@ public class PreflightDriver implements WebDriver {
 			return this.findElement(by);
 		}
 		catch(Exception ex) {
-			System.out.println("Element not found. " + ex.getMessage());
+			_logger.warning("Element not found by selenium. " + ex.getMessage());
 		}
 		return null;
 	}
