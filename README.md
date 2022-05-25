@@ -5,7 +5,7 @@
 - Alternatively you can go to [Account Settings / API](https://app.preflight.com/account/api) to generate a new one.
 
 ## Download JAR file and add it to project dependencies
-- you can find the [JAR file here](https://github.com/Preflight-HQ/PreflightSeleniumJavaPlugin/raw/main/build/libs/PreflightSeleniumJavaAutohealPlugin-1.0.jar)
+- You can find the [JAR file here](https://github.com/Preflight-HQ/PreflightSeleniumJavaPlugin/raw/main/build/libs/PreflightSeleniumJavaAutohealPlugin-1.0.jar)
 
 ## Set API key in your test environment
 - You can set key in code like  
