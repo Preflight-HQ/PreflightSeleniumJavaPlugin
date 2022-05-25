@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="79fd0ea0-0e8f-44e5-a762-46bdc75f715d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/preflight/seleniumAutohealPlugin/PreflightApiKeyMissingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/preflight/seleniumAutohealPlugin/PreflightDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/preflight/seleniumAutohealPlugin/PreflightException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/preflight/seleniumAutohealPlugin/PreflightLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/preflight/seleniumAutohealPlugin/PreflightPluginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/preflight/seleniumAutohealPlugin/PreflightTestFailException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/preflight/seleniumAutohealPlugin/PreflightWebElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/preflight/seleniumAutohealPlugin/SearchElementResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/AutohealScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/PreflightSeleniumJavaAutohealPlugin_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreflightSeleniumJavaAutohealPlugin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreflightSeleniumJavaAutohealPlugin/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreflightSeleniumJavaAutohealPlugin/.idea/PreflightSeleniumJavaAutohealPlugin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreflightSeleniumJavaAutohealPlugin/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreflightSeleniumJavaAutohealPlugin/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PreflightSeleniumJavaAutohealPlugin_jar/PreflightSeleniumJavaAutohealPlugin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/AutohealScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/LoginYourwebappPOM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/PreflightApiKeyMissingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/PreflightDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/PreflightException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/PreflightLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/PreflightPluginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/PreflightTestFailException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/PreflightWebElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/SearchElementResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AutohealScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginYourwebappPOM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PreflightApiKeyMissingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PreflightDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PreflightException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PreflightLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PreflightPluginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PreflightTestFailException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PreflightWebElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchElementResult.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PreflightSeleniumJavaAutohealPlugin" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PreflightSeleniumJavaAutohealPlugin" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PreflightSeleniumJavaAutohealPlugin" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29fr0uHwaAdhtqhrOGSV2ccUSOB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/_SourceCodes/Preflight/PreflightSeleniumJavaAutohealPlugin/src/main/resources"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\_SourceCodes\Preflight\PreflightSeleniumJavaAutohealPlugin\src\main\resources" />
+      <recent name="C:\_SourceCodes\Preflight\PreflightSeleniumJavaAutohealPlugin\src\main\java\com\preflight\seleniumAutohealPlugin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.preflight.seleniumAutohealPlugin.Main" />
+      <module name="PreflightSeleniumJavaAutohealPlugin.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreflightSeleniumJavaAutohealPlugin [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Gradle.PreflightSeleniumJavaAutohealPlugin [build]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.PreflightSeleniumJavaAutohealPlugin [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79fd0ea0-0e8f-44e5-a762-46bdc75f715d" name="Changes" comment="" />
+      <created>1653514763914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653514763914</updated>
+      <workItem from="1653514766576" duration="256000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
