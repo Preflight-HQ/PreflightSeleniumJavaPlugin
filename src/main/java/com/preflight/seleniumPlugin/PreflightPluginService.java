@@ -1,4 +1,4 @@
-package com.preflight.seleniumAutohealPlugin;
+package com.preflight.seleniumPlugin;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;

@@ -1,4 +1,4 @@
-package com.preflight.seleniumAutohealPlugin;
+package com.preflight.seleniumPlugin;
 
 public class PreflightLogger {
     public void log(String s) {

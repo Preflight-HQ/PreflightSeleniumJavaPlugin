@@ -1,4 +1,4 @@
-package com.preflight.seleniumAutohealPlugin;
+package com.preflight.seleniumPlugin;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.Select;
