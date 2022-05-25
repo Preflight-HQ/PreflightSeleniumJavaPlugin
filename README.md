@@ -4,8 +4,16 @@
 - The API key will be generated for you automatically after creating account.
 - Alternatively you can go to [Account Settings / API](https://app.preflight.com/account/api) to generate a new one.
 
+## Download JAR file and add it to project dependencies
+- you can find the [JAR file here](https://github.com/Preflight-HQ/PreflightSeleniumJavaPlugin/raw/main/build/libs/PreflightSeleniumJavaAutohealPlugin-1.0.jar)
+
 ## Set API key in your test environment
-- You can set key in code like  `PreflightDriver.PreflightApiKey = [YOUR_API_KEY];`
+- You can set key in code like  
+```
+public static void main(String[] args) throws Exception {
+    PreflightDriver.PreflightApiKey = [YOUR_API_KEY];
+}
+```
 
 ## Creating test
 - Once you have the plugin installed and set up with the API key you can create your first test.
@@ -15,6 +23,7 @@
 <img src="https://preflightuploads.blob.core.windows.net/uploads/PreflightCypressCodeGenerator.gif" alt="Create test">
 
 ### Generated code
+- Please note that in the current version **you need to disable web security ("--disable-web-security")** in the driver for all functionality to work. 
 ```
     public static void signUpTest() throws Exception {
         ChromeOptions options = new ChromeOptions();
