@@ -5,58 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79fd0ea0-0e8f-44e5-a762-46bdc75f715d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/preflight/seleniumAutohealPlugin/PreflightApiKeyMissingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/preflight/seleniumAutohealPlugin/PreflightDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/preflight/seleniumAutohealPlugin/PreflightException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/preflight/seleniumAutohealPlugin/PreflightLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/preflight/seleniumAutohealPlugin/PreflightPluginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/preflight/seleniumAutohealPlugin/PreflightTestFailException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/preflight/seleniumAutohealPlugin/PreflightWebElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/preflight/seleniumAutohealPlugin/SearchElementResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/AutohealScript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/PreflightSeleniumJavaAutohealPlugin_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PreflightSeleniumJavaAutohealPlugin.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PreflightSeleniumJavaAutohealPlugin/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PreflightSeleniumJavaAutohealPlugin/.idea/PreflightSeleniumJavaAutohealPlugin.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PreflightSeleniumJavaAutohealPlugin/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PreflightSeleniumJavaAutohealPlugin/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/PreflightSeleniumJavaAutohealPlugin_jar/PreflightSeleniumJavaAutohealPlugin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/AutohealScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/LoginYourwebappPOM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/PreflightApiKeyMissingException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/PreflightDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/PreflightException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/PreflightLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/PreflightPluginService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/PreflightTestFailException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/PreflightWebElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PreflightSeleniumJavaAutohealPlugin/SearchElementResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AutohealScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoginYourwebappPOM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PreflightApiKeyMissingException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PreflightDriver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PreflightException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PreflightLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PreflightPluginService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PreflightTestFailException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PreflightWebElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchElementResult.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +67,8 @@
   "keyToString": {
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/_SourceCodes/Preflight/PreflightSeleniumJavaAutohealPlugin/src/main/resources"
+    "last_opened_file_path": "C:/_SourceCodes/Preflight/PreflightSeleniumJavaAutohealPlugin/src/main/resources",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -173,7 +124,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653514763914</updated>
-      <workItem from="1653514766576" duration="256000" />
+      <workItem from="1653514766576" duration="681000" />
     </task>
     <servers />
   </component>
