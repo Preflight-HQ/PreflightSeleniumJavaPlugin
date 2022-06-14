@@ -44,7 +44,8 @@ public static void main(String[] args) throws Exception {
 ### Generated code
 - Generated code can be added to any project including the Preflight Selenium plugin
 - Advanced features like selectors autoheal or email testing will be possible only with valid API key
-- Please note that in the current version **you need to disable web security ("--disable-web-security")** in the driver for all functionality to work. 
+- Please note that in the current version **you need to disable web security ("--disable-web-security")** in the driver for all functionality to work.
+- Below is an example code of log in test
 ```
     public static void signUpTest() throws Exception {
         ChromeOptions options = new ChromeOptions();
