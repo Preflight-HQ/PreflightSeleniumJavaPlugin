@@ -5,8 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79fd0ea0-0e8f-44e5-a762-46bdc75f715d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secring.gpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/preflight/seleniumPlugin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/preflight/seleniumPlugin/PreflightApiKeyMissingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/preflight/seleniumPlugin/PreflightDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/preflight/seleniumPlugin/PreflightException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/preflight/seleniumPlugin/PreflightLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/preflight/seleniumPlugin/PreflightPluginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/preflight/seleniumPlugin/PreflightTestFailException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/preflight/seleniumPlugin/PreflightWebElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/preflight/seleniumPlugin/SearchElementResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/PreflightSeleniumJavaAutohealPlugin-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/AutohealScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +67,30 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PreflightSeleniumJavaAutohealPlugin" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PreflightSeleniumJavaAutohealPlugin" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PreflightSeleniumJavaAutohealPlugin" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="publishing" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PreflightSeleniumJavaAutohealPlugin" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -67,14 +116,18 @@
   "keyToString": {
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/_SourceCodes/Preflight/PreflightSeleniumJavaAutohealPlugin/src/main/resources",
+    "last_opened_file_path": "C:/_SourceCodes/Preflight/PreflightSeleniumJavaAutohealPlugin",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\_SourceCodes\Preflight\PreflightSeleniumJavaAutohealPlugin" />
       <recent name="C:\_SourceCodes\Preflight\PreflightSeleniumJavaAutohealPlugin\src\main\resources" />
       <recent name="C:\_SourceCodes\Preflight\PreflightSeleniumJavaAutohealPlugin\src\main\java\com\preflight\seleniumAutohealPlugin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\_SourceCodes\Preflight\PreflightSeleniumJavaAutohealPlugin" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.PreflightSeleniumJavaAutohealPlugin [build]">
@@ -90,7 +143,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -106,7 +159,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PreflightSeleniumJavaAutohealPlugin [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PreflightSeleniumJavaAutohealPlugin [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -117,7 +170,70 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value="check" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PreflightSeleniumJavaAutohealPlugin [javadoc]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="javadoc" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PreflightSeleniumJavaAutohealPlugin [publish]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="publish" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PreflightSeleniumJavaAutohealPlugin [signMavenPublication]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--scan --stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signMavenPublication" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -129,13 +245,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.com.preflight.seleniumPlugin.Main" />
-      <item itemvalue="Gradle.PreflightSeleniumJavaAutohealPlugin [clean]" />
+      <item itemvalue="Gradle.PreflightSeleniumJavaAutohealPlugin [check]" />
+      <item itemvalue="Gradle.PreflightSeleniumJavaAutohealPlugin [javadoc]" />
+      <item itemvalue="Gradle.PreflightSeleniumJavaAutohealPlugin [publish]" />
+      <item itemvalue="Gradle.PreflightSeleniumJavaAutohealPlugin [signMavenPublication]" />
       <item itemvalue="Gradle.PreflightSeleniumJavaAutohealPlugin [build]" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.PreflightSeleniumJavaAutohealPlugin [build]" />
-        <item itemvalue="Gradle.PreflightSeleniumJavaAutohealPlugin [clean]" />
+        <item itemvalue="Gradle.PreflightSeleniumJavaAutohealPlugin [publish]" />
+        <item itemvalue="Gradle.PreflightSeleniumJavaAutohealPlugin [javadoc]" />
+        <item itemvalue="Gradle.PreflightSeleniumJavaAutohealPlugin [signMavenPublication]" />
+        <item itemvalue="Gradle.PreflightSeleniumJavaAutohealPlugin [check]" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +269,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653514763914</updated>
-      <workItem from="1653514766576" duration="2766000" />
+      <workItem from="1653514766576" duration="3360000" />
+      <workItem from="1655020298169" duration="26284000" />
     </task>
     <servers />
   </component>
