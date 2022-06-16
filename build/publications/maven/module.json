@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.preflight",
+    "module": "preflight-selenium-plugin",
+    "version": "1.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "preflight-selenium-plugin-1.6.1.jar",
+          "url": "preflight-selenium-plugin-1.6.1.jar",
+          "size": 659004,
+          "sha512": "8c1f7905963650aabac5e60401316047742be3c419123761e7cddee59fa7d3ee68d7688498f361e291a8ade6151b68be9498f9382753238d2765a1e9ea39f377",
+          "sha256": "737727c78ef0141ab795dbb78918818f889890f7c5c73565be8a3b11fc8c0d43",
+          "sha1": "544dd2d9fb939e72de1c2b6f6e254380cf85514e",
+          "md5": "db8b40fdfd739728bfc22fc19b316a89"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-java",
+          "version": {
+            "requires": "4.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "preflight-selenium-plugin-1.6.1.jar",
+          "url": "preflight-selenium-plugin-1.6.1.jar",
+          "size": 659004,
+          "sha512": "8c1f7905963650aabac5e60401316047742be3c419123761e7cddee59fa7d3ee68d7688498f361e291a8ade6151b68be9498f9382753238d2765a1e9ea39f377",
+          "sha256": "737727c78ef0141ab795dbb78918818f889890f7c5c73565be8a3b11fc8c0d43",
+          "sha1": "544dd2d9fb939e72de1c2b6f6e254380cf85514e",
+          "md5": "db8b40fdfd739728bfc22fc19b316a89"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "preflight-selenium-plugin-1.6.1-javadoc.jar",
+          "url": "preflight-selenium-plugin-1.6.1-javadoc.jar",
+          "size": 131379,
+          "sha512": "083508e5d662932c99dee0afb865511bacff0f6ffac22d2708b5dc8f5aa5dd7bae981e9ab74890f4df260f2ca2309b1a80f67598267dc175233f6ceb8f17329b",
+          "sha256": "51feef2856a9e8603fc7354ec8ce0d00d27f39ea8b9243fbac1446b427417c85",
+          "sha1": "2ed34e8d97bb2d68a9cfb1c0b18523251a42d0dd",
+          "md5": "537d08b1cb24aac4ec551eaf9531e561"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "preflight-selenium-plugin-1.6.1-sources.jar",
+          "url": "preflight-selenium-plugin-1.6.1-sources.jar",
+          "size": 652087,
+          "sha512": "9bb3ac391f065241b87cd49d3c741d68298b2f6b9919295af7029571b7e880688913b7625c9b6d74488523195d2909f97e8882a19f3c855be1d4899c92efc99a",
+          "sha256": "1eadafcc4cfd138dfca0531daebeb6c25f22442237e549b42aed7d003f610c06",
+          "sha1": "616701fe7ca9d365ff6135c22d92e9f660782416",
+          "md5": "071935f9b5bc34c78cd5badaf4e50703"
+        }
+      ]
+    }
+  ]
+}

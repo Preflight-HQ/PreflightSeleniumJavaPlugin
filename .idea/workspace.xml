@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79fd0ea0-0e8f-44e5-a762-46bdc75f715d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/PreflightSeleniumJavaAutohealPlugin-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/PreflightSeleniumJavaAutohealPlugin-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/PreflightSeleniumJavaAutohealPlugin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/PreflightSeleniumJavaAutohealPlugin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/preflight/seleniumPlugin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/preflight/seleniumPlugin/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/AutohealScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/AutohealScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +104,7 @@
       <recent name="C:\_SourceCodes\Preflight\PreflightSeleniumJavaAutohealPlugin" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.preflight.seleniumPlugin.Main">
+  <component name="RunManager" selected="Gradle.PreflightSeleniumJavaAutohealPlugin [publish]">
     <configuration name="com.preflight.seleniumPlugin.Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.preflight.seleniumPlugin.Main" />
       <module name="PreflightSeleniumJavaAutohealPlugin.main" />
@@ -232,8 +227,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PreflightSeleniumJavaAutohealPlugin [build]" />
         <item itemvalue="Gradle.PreflightSeleniumJavaAutohealPlugin [publish]" />
+        <item itemvalue="Gradle.PreflightSeleniumJavaAutohealPlugin [build]" />
         <item itemvalue="Gradle.PreflightSeleniumJavaAutohealPlugin [javadoc]" />
         <item itemvalue="Gradle.PreflightSeleniumJavaAutohealPlugin [signMavenPublication]" />
         <item itemvalue="Gradle.PreflightSeleniumJavaAutohealPlugin [check]" />
@@ -250,7 +245,7 @@
       <updated>1653514763914</updated>
       <workItem from="1653514766576" duration="3360000" />
       <workItem from="1655020298169" duration="27396000" />
-      <workItem from="1655363261732" duration="6983000" />
+      <workItem from="1655363261732" duration="7065000" />
     </task>
     <servers />
   </component>
