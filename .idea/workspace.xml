@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79fd0ea0-0e8f-44e5-a762-46bdc75f715d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/PreflightSeleniumJavaAutohealPlugin-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/PreflightSeleniumJavaAutohealPlugin-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/PreflightSeleniumJavaAutohealPlugin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/PreflightSeleniumJavaAutohealPlugin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/preflight/seleniumPlugin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/preflight/seleniumPlugin/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/AutohealScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/AutohealScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,14 +91,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/_SourceCodes/Preflight/PreflightSeleniumJavaAutohealPlugin",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/_SourceCodes/Preflight/PreflightSeleniumJavaAutohealPlugin&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\_SourceCodes\Preflight\PreflightSeleniumJavaAutohealPlugin" />
@@ -104,7 +109,7 @@
       <recent name="C:\_SourceCodes\Preflight\PreflightSeleniumJavaAutohealPlugin" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PreflightSeleniumJavaAutohealPlugin [build]">
+  <component name="RunManager" selected="Application.com.preflight.seleniumPlugin.Main">
     <configuration name="com.preflight.seleniumPlugin.Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.preflight.seleniumPlugin.Main" />
       <module name="PreflightSeleniumJavaAutohealPlugin.main" />
@@ -244,7 +249,8 @@
       <option name="presentableId" value="Default" />
       <updated>1653514763914</updated>
       <workItem from="1653514766576" duration="3360000" />
-      <workItem from="1655020298169" duration="26515000" />
+      <workItem from="1655020298169" duration="27396000" />
+      <workItem from="1655363261732" duration="6983000" />
     </task>
     <servers />
   </component>

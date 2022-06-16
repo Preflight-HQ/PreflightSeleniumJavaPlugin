@@ -27,7 +27,7 @@ public class Main {
 
         driver.initializeAutohealTest("dUzJ8QDi7tvs");
         driver.get("https://yourweb.app/#/signup");
-        driver.findElement(By.cssSelector("#pf-lesson-signup-0"), "2").sendKeys("{{name.firstName}}");
+        driver.findElement(By.cssSelector("#pf-lesson-signup"), "2").sendKeys("{{name.firstName}}");
         driver.findElement(By.cssSelector("#pf-lesson-signup-1"), "3").sendKeys("{{name.lastName}}");
         driver.findElement(By.cssSelector("#pf-lesson-signup-2"), "4").sendKeys("{{generate.email}}");
         driver.findElement(By.cssSelector("#pf-lesson-signup-3"), "5").sendKeys("123456");
