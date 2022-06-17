@@ -8,7 +8,7 @@
 - File upload to forms
 - 
 
-## Create an account on [Preflight.com](https://app.preflight.com/get-started?afmc=cypressPlugin)
+## Create an account on [Preflight.com](https://app.preflight.com/get-started?afmc=seleniumPlugin)
 - The API key will be generated for you automatically after creating account.
 - Alternatively you can go to [Account Settings / API](https://app.preflight.com/account/api) to generate a new one.
 
