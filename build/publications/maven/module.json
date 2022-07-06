@@ -3,7 +3,7 @@
   "component": {
     "group": "com.preflight",
     "module": "preflight-selenium-plugin",
-    "version": "1.6.1",
+    "version": "1.6.2",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,8 +25,8 @@
       },
       "files": [
         {
-          "name": "preflight-selenium-plugin-1.6.1.jar",
-          "url": "preflight-selenium-plugin-1.6.1.jar",
+          "name": "preflight-selenium-plugin-1.6.2.jar",
+          "url": "preflight-selenium-plugin-1.6.2.jar",
           "size": 794213,
           "sha512": "e87415c17555bd7a71da362cd9b9311389be5ceb930fb9afc9fba490c6955777e86fb609f318cb7b69db2d3775344b883cff002b94051dfee1b3a141f6079f42",
           "sha256": "fd36bbc185a334eae0d916df2f41a8773b17086457db6bd9a02012d435006a97",
@@ -55,8 +55,8 @@
       ],
       "files": [
         {
-          "name": "preflight-selenium-plugin-1.6.1.jar",
-          "url": "preflight-selenium-plugin-1.6.1.jar",
+          "name": "preflight-selenium-plugin-1.6.2.jar",
+          "url": "preflight-selenium-plugin-1.6.2.jar",
           "size": 794213,
           "sha512": "e87415c17555bd7a71da362cd9b9311389be5ceb930fb9afc9fba490c6955777e86fb609f318cb7b69db2d3775344b883cff002b94051dfee1b3a141f6079f42",
           "sha256": "fd36bbc185a334eae0d916df2f41a8773b17086457db6bd9a02012d435006a97",
@@ -75,8 +75,8 @@
       },
       "files": [
         {
-          "name": "preflight-selenium-plugin-1.6.1-javadoc.jar",
-          "url": "preflight-selenium-plugin-1.6.1-javadoc.jar",
+          "name": "preflight-selenium-plugin-1.6.2-javadoc.jar",
+          "url": "preflight-selenium-plugin-1.6.2-javadoc.jar",
           "size": 131403,
           "sha512": "cd235da31f9bc15a9acf6a723e45b2854c057c25b52579e7022d15e5224c44cfe91f2c7eeaca1ba47ee25fbf04ebc1e1b46c1b063d59b235a9518bb4ecc8d9f3",
           "sha256": "c41ecd2cf0384e4e2c6e42a79e94163e475d9cbb5b2595fbd81acbfd481456cd",
@@ -95,8 +95,8 @@
       },
       "files": [
         {
-          "name": "preflight-selenium-plugin-1.6.1-sources.jar",
-          "url": "preflight-selenium-plugin-1.6.1-sources.jar",
+          "name": "preflight-selenium-plugin-1.6.2-sources.jar",
+          "url": "preflight-selenium-plugin-1.6.2-sources.jar",
           "size": 787128,
           "sha512": "42a694557e020d29a035653c2c6cfd720269e185cb98261f4cd2c4ea3a1692c5990ac179c7ec125a585f9e28459baad18dfacf5227493bf7af8ff185d05efad8",
           "sha256": "d2d95ae82744fa1fe219137f731ba5ac67d20089cd8d66a9f2ead014508c3898",
