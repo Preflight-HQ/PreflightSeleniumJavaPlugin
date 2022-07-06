@@ -24,7 +24,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.preflight'
             artifactId = 'preflight-selenium-plugin'
-            version = '1.6.2'
+            version = '1.6.3'
             from components.java
             pom {
                 name = 'Preflight Selenium Autoheal Plugin'

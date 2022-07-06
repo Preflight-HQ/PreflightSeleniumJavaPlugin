@@ -1,3 +1,5 @@
 gradle.properties
 secring.gpg
 /.metadata/
+/.gradle/
+build
