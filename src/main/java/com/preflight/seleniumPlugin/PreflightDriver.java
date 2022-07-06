@@ -172,7 +172,7 @@ public class PreflightDriver implements WebDriver {
 	}
 
 	private String getSelectorFromBy(By by) throws PreflightException {
-		Pattern r = Pattern.compile(": ([^\\s]+)");
+		Pattern r = Pattern.compile("By\\.[a-zA-Z]+\\s*:\\s*(.+)");
 		var m = r.matcher(by.toString());
 		if(m.find()) {
 			return m.group(1);
