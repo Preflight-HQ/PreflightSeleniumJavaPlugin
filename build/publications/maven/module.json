@@ -27,11 +27,11 @@
         {
           "name": "preflight-selenium-plugin-1.6.1.jar",
           "url": "preflight-selenium-plugin-1.6.1.jar",
-          "size": 659004,
-          "sha512": "8c1f7905963650aabac5e60401316047742be3c419123761e7cddee59fa7d3ee68d7688498f361e291a8ade6151b68be9498f9382753238d2765a1e9ea39f377",
-          "sha256": "737727c78ef0141ab795dbb78918818f889890f7c5c73565be8a3b11fc8c0d43",
-          "sha1": "544dd2d9fb939e72de1c2b6f6e254380cf85514e",
-          "md5": "db8b40fdfd739728bfc22fc19b316a89"
+          "size": 794213,
+          "sha512": "e87415c17555bd7a71da362cd9b9311389be5ceb930fb9afc9fba490c6955777e86fb609f318cb7b69db2d3775344b883cff002b94051dfee1b3a141f6079f42",
+          "sha256": "fd36bbc185a334eae0d916df2f41a8773b17086457db6bd9a02012d435006a97",
+          "sha1": "50199123047d86400893cf55e3706680cc11708b",
+          "md5": "be15a00137f5abe35c3fd47b5ead1021"
         }
       ]
     },
@@ -57,11 +57,11 @@
         {
           "name": "preflight-selenium-plugin-1.6.1.jar",
           "url": "preflight-selenium-plugin-1.6.1.jar",
-          "size": 659004,
-          "sha512": "8c1f7905963650aabac5e60401316047742be3c419123761e7cddee59fa7d3ee68d7688498f361e291a8ade6151b68be9498f9382753238d2765a1e9ea39f377",
-          "sha256": "737727c78ef0141ab795dbb78918818f889890f7c5c73565be8a3b11fc8c0d43",
-          "sha1": "544dd2d9fb939e72de1c2b6f6e254380cf85514e",
-          "md5": "db8b40fdfd739728bfc22fc19b316a89"
+          "size": 794213,
+          "sha512": "e87415c17555bd7a71da362cd9b9311389be5ceb930fb9afc9fba490c6955777e86fb609f318cb7b69db2d3775344b883cff002b94051dfee1b3a141f6079f42",
+          "sha256": "fd36bbc185a334eae0d916df2f41a8773b17086457db6bd9a02012d435006a97",
+          "sha1": "50199123047d86400893cf55e3706680cc11708b",
+          "md5": "be15a00137f5abe35c3fd47b5ead1021"
         }
       ]
     },
@@ -77,11 +77,11 @@
         {
           "name": "preflight-selenium-plugin-1.6.1-javadoc.jar",
           "url": "preflight-selenium-plugin-1.6.1-javadoc.jar",
-          "size": 131379,
-          "sha512": "083508e5d662932c99dee0afb865511bacff0f6ffac22d2708b5dc8f5aa5dd7bae981e9ab74890f4df260f2ca2309b1a80f67598267dc175233f6ceb8f17329b",
-          "sha256": "51feef2856a9e8603fc7354ec8ce0d00d27f39ea8b9243fbac1446b427417c85",
-          "sha1": "2ed34e8d97bb2d68a9cfb1c0b18523251a42d0dd",
-          "md5": "537d08b1cb24aac4ec551eaf9531e561"
+          "size": 131403,
+          "sha512": "cd235da31f9bc15a9acf6a723e45b2854c057c25b52579e7022d15e5224c44cfe91f2c7eeaca1ba47ee25fbf04ebc1e1b46c1b063d59b235a9518bb4ecc8d9f3",
+          "sha256": "c41ecd2cf0384e4e2c6e42a79e94163e475d9cbb5b2595fbd81acbfd481456cd",
+          "sha1": "be7bc779a4660d9706831a3a29d9259aaf17e9af",
+          "md5": "a3a6f5597a463c93b414ee056aa790ec"
         }
       ]
     },
@@ -97,11 +97,11 @@
         {
           "name": "preflight-selenium-plugin-1.6.1-sources.jar",
           "url": "preflight-selenium-plugin-1.6.1-sources.jar",
-          "size": 652087,
-          "sha512": "9bb3ac391f065241b87cd49d3c741d68298b2f6b9919295af7029571b7e880688913b7625c9b6d74488523195d2909f97e8882a19f3c855be1d4899c92efc99a",
-          "sha256": "1eadafcc4cfd138dfca0531daebeb6c25f22442237e549b42aed7d003f610c06",
-          "sha1": "616701fe7ca9d365ff6135c22d92e9f660782416",
-          "md5": "071935f9b5bc34c78cd5badaf4e50703"
+          "size": 787128,
+          "sha512": "42a694557e020d29a035653c2c6cfd720269e185cb98261f4cd2c4ea3a1692c5990ac179c7ec125a585f9e28459baad18dfacf5227493bf7af8ff185d05efad8",
+          "sha256": "d2d95ae82744fa1fe219137f731ba5ac67d20089cd8d66a9f2ead014508c3898",
+          "sha1": "7881fbb37e95d7ff02c2e593d13459e489cbc031",
+          "md5": "04b23f08e1b3ebc6966782ab22f7e99c"
         }
       ]
     }
